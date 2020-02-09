@@ -11,7 +11,7 @@ public class MyNewFilter implements Filter {
     @Override
     public void doFilter(ServletRequest servletRequest, ServletResponse servletResponse, FilterChain filterChain) throws IOException, ServletException {
 
-        System.out.println("The new filter is called..");
+        System.out.println("The customer filter is called..");
 
         filterChain.doFilter(servletRequest, servletResponse);
     }
